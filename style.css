@@ -176,3 +176,10 @@ header .container {
     background-color: transparent;
     color: var(--light-color);
 }
+
+footer {
+    padding: 2rem 0;
+    background-color: var(--dark-color);
+    text-align: center;
+    color: var(--light-color)
+}
