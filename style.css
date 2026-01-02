@@ -23,6 +23,16 @@ a {
     text-decoration: none;
 }
 
+button {
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.tiny {
+    font-size: 0.5rem;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -83,10 +93,7 @@ header .container {
 
 .hero-sign {
     background-color: var(--accent-color);
-    padding: 0.25rem 1rem;
     color: var(--light-color);
-    border-radius: 5px;
-    border: none;
 }
 
 .hero-image {
@@ -144,4 +151,28 @@ header .container {
     font-size: 1.5rem;
     text-align: right;
     font-weight: 900;
+}
+
+.cta {
+    padding: 3rem 0;
+}
+
+
+.cta-content {
+    padding: 1.5rem 2rem;
+    background-color: var(--accent-color);
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cta-text {
+    color: var(--light-color);
+}
+
+.cta-btn {
+    border: 2px solid var(--light-color);
+    background-color: transparent;
+    color: var(--light-color);
 }
