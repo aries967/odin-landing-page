@@ -8,3 +8,90 @@
 
     font-family: 'Roboto', sans-serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 1rem;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.primary-links {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    gap: 1.5rem;
+}
+
+.primary-links a {
+    color: var(--neutral-color);
+}
+
+.hero {
+    background-color: var(--dark-color);
+    color: var(--neutral-color);
+    padding: 1rem;
+    font-size: 1.125rem;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem auto;
+}
+
+.hero-contents p {
+    margin-bottom: 0.5rem;
+}
+
+.hero-main-text {
+    font-size: 3rem;
+    color: var(--light-color);
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-sign {
+    background-color: var(--accent-color);
+    padding: 0.25rem 1rem;
+    color: var(--light-color);
+    border-radius: 5px;
+    border: none;
+}
+
+.hero-image {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
