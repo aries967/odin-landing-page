@@ -95,3 +95,34 @@ header .container {
     border-radius: 20px;
 }
 
+.info {
+    padding: 2rem;
+}
+
+.info h2 {
+    font-size: 3rem;
+    font-weight: 900px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.info .container {
+    margin-bottom: 2rem;
+}
+
+.info .items {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.info .item {
+    width: 20%;
+    text-align: center;
+}
+
+.info .item img {
+    width: 100%;
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+}
